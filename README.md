@@ -5,7 +5,7 @@ This repository is meant to reflect the work done by me (mikhaidn) for this Fall
 
 ## Notable Links
 Links that are relavent to the course
-* Sylabus
+* Syllabus
 * Profiles of collaborators
 * [Personal Course GitHub](https://github.com/mikhaidn/CourseNoteTemplate)
 ## Notable Repos
