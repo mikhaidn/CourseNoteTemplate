@@ -8,15 +8,15 @@ while getopts ":r:" arg; do
   esac
 done
 
-if [ -z "$repo" ] || [ -d "$repo" ];
+if [[ -z "$repo" ]] || [[ -d "$repo" ]];
   then
   echo "\$repo is either unspecified or already exists, use 'bash makeGitCourseRepo.sh -r [REPO_NAME]' to create a new course note Git project";
   exit 0;
 else
   mkdir ../$repo;
-  cd ../:$repo;
+  cd ../$repo;
   
-  # copy this repo into
+  # copy this repo into the $repo
   cp -r ../CourseNoteTemplate/* .;
   git init;
   git add .;
